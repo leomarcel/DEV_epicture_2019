@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Epicture",
+    "slug": "Epicture",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "splash": {
+      "image": "./assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#171819"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.epitech.epicture",
+      "versionCode": 1,
+      "permissions": [
+        "CAMERA",
+        "READ_CONTACTS",
+        "READ_PHONE_STATE",
+        "RECORD_AUDIO"
+      ]
+    }
+  }
+}
