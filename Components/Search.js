@@ -33,7 +33,7 @@ class Search extends React.Component {
 
     return fetch(url, {
       methode: "GET",
-      headers: { Authorization: "CLIENT-ID c7521e306b01b8f" }
+      headers: {  }
     })
       .then(response => response.json())
       .then(result => {
